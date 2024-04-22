@@ -19,6 +19,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".SecondActivity">
+            <!-- Optionally, you can add intent filters here -->
+        </activity>
+
     </application>
 
 </manifest>
