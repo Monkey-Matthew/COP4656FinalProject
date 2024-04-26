@@ -13,17 +13,17 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // Find the button by its ID
+        //Finds the id of the welcome button to use later in the code.
         Button welcomeButton = findViewById(R.id.welcome_button);
 
-        // Set OnClickListener for the button
+        //Sets onClickListener that will start the SecondActivity once it is clicked.
         welcomeButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Create an Intent to start the new activity
+                //Intent to start the new activity.
                 Intent intent = new Intent(MainActivity.this, SecondActivity.class);
 
-                // Start the new activity
+                //Starts the new activity.
                 startActivity(intent);
             }
         });
