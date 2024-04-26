@@ -33,4 +33,5 @@
         android:text="@string/welcome_button"
         android:fontFamily="@font/obised"
         />
+
 </LinearLayout>

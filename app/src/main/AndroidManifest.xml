@@ -21,7 +21,11 @@
         </activity>
 
         <activity android:name=".SecondActivity">
-            <!-- Optionally, you can add intent filters here -->
+
+        </activity>
+
+        <activity android:name=".PieChartActivity">
+
         </activity>
 
     </application>
